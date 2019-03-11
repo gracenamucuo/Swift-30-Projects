@@ -331,16 +331,17 @@
 					};
 					19B36D191D7E54A000BE0903 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 44JDRP3T56;
+						DevelopmentTeam = HU7CX6V97R;
 						LastSwiftMigration = 0900;
 					};
 					F4FCCF6E1A5F7DFF006183CC = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = 44JDRP3T56;
+						DevelopmentTeam = HU7CX6V97R;
 						LastSwiftMigration = 0900;
 					};
 					F4FCCF831A5F7DFF006183CC = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = HU7CX6V97R;
 						LastSwiftMigration = 0900;
 						TestTargetID = F4FCCF6E1A5F7DFF006183CC;
 					};
@@ -551,6 +552,7 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HU7CX6V97R;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Weather Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -570,6 +572,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HU7CX6V97R;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Weather Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -689,6 +692,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = HU7CX6V97R;
 				INFOPLIST_FILE = WeatherDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yigu.WeatherDemo;
@@ -704,6 +708,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = HU7CX6V97R;
 				INFOPLIST_FILE = WeatherDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yigu.WeatherDemo;
@@ -717,6 +722,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HU7CX6V97R;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -739,6 +745,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HU7CX6V97R;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

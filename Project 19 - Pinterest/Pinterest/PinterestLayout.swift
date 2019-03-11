@@ -43,11 +43,11 @@ class PinterestLayout: UICollectionViewLayout {
   var delegate: PinterestLayoutDelegate!
   
   var numberOfColumns = 2
-  var cellPadding: CGFloat = 6.0
+  var cellPadding: CGFloat = 0
   
   fileprivate var cache = [PinterestLayoutAttributes]()
   
-  fileprivate var contentHeight: CGFloat  = 0.0
+  fileprivate var contentHeight: CGFloat  = 6.0
   
   fileprivate var contentWidth: CGFloat {
     let insets = collectionView!.contentInset

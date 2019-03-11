@@ -122,9 +122,11 @@ class MainViewController: UIViewController {
     // present activityViewController when imageArray has some selected
     if !imageArray.isEmpty {
       let shareScreen = UIActivityViewController(activityItems: imageArray, applicationActivities: nil)
-      shareScreen.completionWithItemsHandler = { _ in
+        shareScreen.completionWithItemsHandler = { _,_, _, _ in
         self.sharing = false
       }
+        
+        
       let popoverPresentationController = shareScreen.popoverPresentationController
       popoverPresentationController?.barButtonItem = sender as? UIBarButtonItem
       popoverPresentationController?.permittedArrowDirections = .any

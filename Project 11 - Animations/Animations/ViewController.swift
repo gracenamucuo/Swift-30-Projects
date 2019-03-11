@@ -18,11 +18,14 @@ class ViewController: UIViewController {
   // MARK: - Variables
   fileprivate let items = ["2-Color", "Simple 2D Rotation", "Multicolor", "Multi Point Position", "BezierCurve Position",
                        "Color and Frame Change", "View Fade In", "Pop"]
-  
+     func test() {
+        
+    }
   
   // MARK: - Life Cycle
   override func viewDidLoad() {
     super.viewDidLoad()
+    test()
   }
   
   override func viewWillAppear(_ animated: Bool) {
@@ -76,7 +79,10 @@ extension ViewController: UITableViewDelegate {
 
 // MARK: - UITableViewDataSource
 extension ViewController: UITableViewDataSource {
-  func numberOfSections(in tableView: UITableView) -> Int {
+ 
+
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
     return 1
   }
   

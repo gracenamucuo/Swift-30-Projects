@@ -20,9 +20,10 @@ class PhotoStreamViewController: UICollectionViewController {
       layout.delegate = self
     }
 
-    view.backgroundColor = UIColor(patternImage: #imageLiteral(resourceName: "Pattern"))
     
-    collectionView!.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+    
+    view.backgroundColor = UIColor(patternImage: #imageLiteral(resourceName: "11"))
+    collectionView!.backgroundColor = UIColor.white
     
     if #available(iOS 11.0, *) {
       collectionView?.contentInsetAdjustmentBehavior = .always

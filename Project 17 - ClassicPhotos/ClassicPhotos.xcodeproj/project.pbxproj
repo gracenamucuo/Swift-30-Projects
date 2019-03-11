@@ -189,7 +189,7 @@
 				TargetAttributes = {
 					27DF645C19657A9300B42725 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = 44JDRP3T56;
+						DevelopmentTeam = HU7CX6V97R;
 						LastSwiftMigration = 0900;
 					};
 					27DF646919657A9300B42725 = {
@@ -358,7 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 44JDRP3T56;
+				DEVELOPMENT_TEAM = HU7CX6V97R;
 				INFOPLIST_FILE = ClassicPhotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raywenderlich.${PRODUCT_NAME:rfc1034identifier}";
@@ -374,7 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 44JDRP3T56;
+				DEVELOPMENT_TEAM = HU7CX6V97R;
 				INFOPLIST_FILE = ClassicPhotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raywenderlich.${PRODUCT_NAME:rfc1034identifier}";
